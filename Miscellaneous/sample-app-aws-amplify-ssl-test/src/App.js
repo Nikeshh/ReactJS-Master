@@ -13,7 +13,7 @@ function App() {
     };
 
     const { data } = await axios.get(
-        BASE_URL + `/hello`,
+        BASE_URL + `/name`,
         config
     );
 
